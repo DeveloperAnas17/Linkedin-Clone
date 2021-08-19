@@ -1,14 +1,16 @@
 import React from "react";
 import styled from "styled-components";
 
-function Header() {
+function Home() {
   return (
     <Container>
-      <h1>I am Header</h1>
+      <Content></Content>
     </Container>
   );
 }
 
-export default Header;
+export default Home;
 
 const Container = styled.div``;
+
+const Content = styled.div``;
